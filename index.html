@@ -1,75 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ColoRawe - Your Dream Nike</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <header class="hero">
-    <nav class="navbar">
-      <div class="logo"><img src="" alt=""></div>
-      <ul class="menu">
-        <li>Main page</li>
-        <li>Benefits</li>
-        <li>Advantages</li>
-        <li>Reviews</li>
-        <li>Contacts</li>
-        <li>Order</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColoRawe - Your Dream Nike</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="logo"><img src="./img/logo.png" alt="logo" /></a>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item"><a href="#">Main Page</a></li>
+          <li class="header-item"><a class="header-link" href="#">Benefits</a></li>
+          <li class="header-item"><a href="#">Advantages</a></li>
+          <li class="header-item"><a href="#">Reviews</a></li>
+          <li class="header-item"><a href="#">Contacts</a></li>
+          <li class="header-item"><a href="#">Order</a></li>
+        </ul>
+      </nav>
+      <ul class="header-lang">
+        <li class="lang-item"><a class="lang-link" href="#">UA</a></li>
+        <li class="lang-item"><a href="#">ENG</a></li>
       </ul>
-    </nav>
-    <div class="hero-content">
+    </header>
+    <section class="hero">
+      <img src="./img/logo-2.png" alt="logo">
+      <h2>C&R</h2>
       <h1>CoIoRawe</h1>
       <p>Your dream Nike</p>
-      <p>Bring your own custom color dreams to life. Create your own Nike style!</p>
-        <button type="button" class="hero-btn">Buy my Nike</button>
-      <img src="0" alt="Nike Sneaker">
-    </div>
-  </header>
+      <p>
+        On this site you can find custom Nike sneakers of your dreams. 
+        The original company caт`t create such beautiful 
+        sneakers as we do.
+        Good luck finding your way in the world of custom sneakers.
+      </p>
+      <button type="button" class="hero-btn">Buy my Nike</button>
+    </section>
+      <ul>
+    <section class="advantages">
+      <li class="card">
+        <h3>Premium Quality</h3>
+        <img src="./img/star.jpg" alt="Premium Quality" />
+      </li>
+      <div class="card">
+        <img src="./img/paint.jpg" alt="Indelible Paint" />
+        <h3>Indelible paint</h3>
+      </li>
+      <li class="card">
+        <h3>Fast shipping</h3>
+        <img src="./img/truck.jpg" alt="Fast shipping" />
+      </li>
+    </section>
+       </ul>
+       <ul>
+    <section class="reviews">
+      <h2>Reviews</h2>
+      <div class="review-cards">
+        <div class="review">
+          Sneakers are very 
+            comfortable and well 
+           painted, nothing has 
+          worn off in a year.
+        </div>
+        <div class="review">I'm very happy with 
+         this color scheme.
+         They match all my
+          clothes.</div>
+        <div class="review">Just right if you need
+           to go to a party.
+           I use them actively, 
+           the paint is super.</div>
+      </div>
+    </section>
+      </ul>
+    <section class="order">
+      <h2>Order</h2>
+      <form>
+        <input type="email" placeholder="Your email" />
+        <input type="text" placeholder="Your Country" />
+        <input type="text" placeholder="Your City" />
+        <input type="text" placeholder="Your Address" />
+        <button type="submit">Order my Nike</button>
+      </form>
+    </section>
 
-  <section class="advantages">
-    <div class="card">
-      <img src="" alt="Premium Quality">
-      <h3>Premium Quality</h3>
-    </div>
-    <div class="card">
-      <img src="" alt="Indelible Paint">
-      <h3>Indelible paint</h3>
-    </div>
-    <div class="card">
-      <img src="" alt="Fast shipping">
-      <h3>Fast shipping</h3>
-    </div>
-  </section>
-
-  <section class="reviews">
-    <h2>Reviews</h2>
-    <div class="review-cards">
-      <div class="review">Sneakers are very comfortable and well painted...</div>
-      <div class="review">I'm very happy with this color scheme!</div>
-      <div class="review">Just right if you need to go to party...</div>
-    </div>
-  </section>
-
-  <section class="order">
-    <h2>Order</h2>
-    <form>
-      <input type="email" placeholder="Your email">
-      <input type="text" placeholder="Your Country">
-      <input type="text" placeholder="Your City">
-      <input type="text" placeholder="Your Address">
-      <button type="submit">Order my Nike</button>
-    </form>
-  </section>
-
-  <footer>
-    <p>Have a question?</p>
-    <p>ColoRawe_support@gmail.com</p>
-    <p>ColoRawe_Advertising@gmail.com</p>
-  </footer>
-
-</body>
+    <footer>
+      <p>Have a question?</p>
+      <p>ColoRawe_support@gmail.com</p>
+      <p>ColoRawe_Advertising@gmail.com</p>
+    </footer>
+  </body>
 </html>
