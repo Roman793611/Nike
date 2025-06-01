@@ -1,0 +1,29 @@
+.icon {
+  fill: currentColor;
+  transition: fill 250ms ease-in-out;
+}
+.social-list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #f4f4fd;
+  border-radius: 50%;
+  color: #4d5ae5; /* Початковий колір іконки */
+  transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+  color: #ffffff; /* Колір іконки змінюється через currentColor */
+}
